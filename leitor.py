@@ -121,6 +121,9 @@ else:
 
 # até a chamada da função 'ler()', o programa principal é igual ao
 # programa do mensageiro.py
+print('Selecione a imagem que você quer ler a mensagem escondida')
+print('Dependendo da resolução, a imagem pode demorar multiplos segundos para ser lida')
+input('Pressione enter para continuar')
 msg = ler(alocacao)
 print()
 try:
