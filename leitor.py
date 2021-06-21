@@ -21,6 +21,10 @@ if(exit):
     input('pressione enter para encerrar o programa ')
     exit()
 
+print('Selecione a imagem que você quer ler a mensagem escondida')
+print('Dependendo da resolução, a imagem pode demorar multiplos segundos para ser lida')
+input('Pressione enter para continuar')
+    
 root = Tk() # pointing root to Tk() to use it as Tk() in program.   | IMAGINO que crie um objeto Tk com nome root
 root.withdraw() # Hides small tkinter window.                       | Vou seguir com a linha do que ta escrito ali, não mostra a janelinha padrão
 #root.attributes('-topmost', True) #deixa a janela como importante (no topo), ela fica em cima das outras janelas (vou tirar isso depois se pa)
@@ -121,9 +125,6 @@ else:
 
 # até a chamada da função 'ler()', o programa principal é igual ao
 # programa do mensageiro.py
-print('Selecione a imagem que você quer ler a mensagem escondida')
-print('Dependendo da resolução, a imagem pode demorar multiplos segundos para ser lida')
-input('Pressione enter para continuar')
 msg = ler(alocacao)
 print()
 try:
