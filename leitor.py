@@ -1,3 +1,6 @@
+# Programa Feito por André Luiz Kovalski
+# https://github.com/Kovalski-rgb/Testes_e_projetos_aleatorios/tree/main/2.Guarda_Mensagem_em_Imagem
+
 # se algum dos modulos necessarios para o funcionamento do programa não esta instalado,
 # um aviso será dado retornado no terminal, e o programa fechará
 exit = False
